@@ -1,0 +1,16 @@
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\bin\Debug\net5.0\MyApp.exe
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\bin\Debug\net5.0\MyApp.deps.json
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\bin\Debug\net5.0\MyApp.runtimeconfig.json
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\bin\Debug\net5.0\MyApp.runtimeconfig.dev.json
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\bin\Debug\net5.0\MyApp.dll
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\bin\Debug\net5.0\ref\MyApp.dll
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\bin\Debug\net5.0\MyApp.pdb
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\obj\Debug\net5.0\MyApp.csproj.AssemblyReference.cache
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\obj\Debug\net5.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\obj\Debug\net5.0\MyApp.AssemblyInfoInputs.cache
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\obj\Debug\net5.0\MyApp.AssemblyInfo.cs
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\obj\Debug\net5.0\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\obj\Debug\net5.0\MyApp.dll
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\obj\Debug\net5.0\ref\MyApp.dll
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\obj\Debug\net5.0\MyApp.pdb
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\MyApp\obj\Debug\net5.0\MyApp.genruntimeconfig.cache
