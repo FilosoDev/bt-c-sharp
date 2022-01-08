@@ -1,0 +1,16 @@
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\bin\Debug\net5.0\EditorHtml.exe
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\bin\Debug\net5.0\EditorHtml.deps.json
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\bin\Debug\net5.0\EditorHtml.runtimeconfig.json
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\bin\Debug\net5.0\EditorHtml.runtimeconfig.dev.json
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\bin\Debug\net5.0\EditorHtml.dll
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\bin\Debug\net5.0\ref\EditorHtml.dll
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\bin\Debug\net5.0\EditorHtml.pdb
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\obj\Debug\net5.0\EditorHtml.csproj.AssemblyReference.cache
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\obj\Debug\net5.0\EditorHtml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\obj\Debug\net5.0\EditorHtml.AssemblyInfoInputs.cache
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\obj\Debug\net5.0\EditorHtml.AssemblyInfo.cs
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\obj\Debug\net5.0\EditorHtml.csproj.CoreCompileInputs.cache
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\obj\Debug\net5.0\EditorHtml.dll
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\obj\Debug\net5.0\ref\EditorHtml.dll
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\obj\Debug\net5.0\EditorHtml.pdb
+C:\Users\arthu\pasta-do-git\BALTA.IO\bt-c-sharp\EditorHtml\obj\Debug\net5.0\EditorHtml.genruntimeconfig.cache
