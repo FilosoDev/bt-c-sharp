@@ -226,6 +226,38 @@ namespace MyApp
                 Math.Floor(valor)
             );
 
+            // LISTAS
+            Console.Clear();
+
+            // int[] meuArray = new int[];
+            //var meuArray = new int[5];
+            var meuArray = new int[5] { 1, 5, 9, 10, 7 };
+            Console.WriteLine(meuArray[0]);
+            meuArray[0] = 12;
+            Console.WriteLine(meuArray[0]);
+
+            for (var item = 0; item < meuArray.Length; item++)
+            {
+                Console.WriteLine(meuArray[item]);
+            }
+
+            Console.Clear();
+            // FOREACH
+            foreach (var item in meuArray)
+            {
+                Console.WriteLine(item);
+            }
+
+            var funcionarios = new Funcionario[5];
+            funcionarios[0] = new Funcionario() { Id = 2579, Nome = "Juan" };
+
+            foreach (var funcionario in funcionarios)
+            {
+                Console.WriteLine(funcionario.Id);
+                Console.WriteLine(funcionario.Nome);
+            }
+
+
         }
 
         // datas
@@ -233,5 +265,19 @@ namespace MyApp
         {
             return today == DayOfWeek.Saturday || today == DayOfWeek.Sunday;
         }
+
+        // array structs
+        public struct Funcionario
+        {
+            public int Id { get; set; }
+            public String Nome { get; set; }
+        }
+
+
+
+
+
+
+
     }
 }
