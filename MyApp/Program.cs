@@ -136,22 +136,69 @@ namespace MyApp
             var pt = new CultureInfo("pt-PT");
             var en = new CultureInfo("en-US");
             var de = new CultureInfo("de-DE");
+            var atualCultura = CultureInfo.CurrentCulture;
 
             Console.WriteLine(DateTime.Now.ToString("D", br));
             Console.WriteLine(DateTime.Now.ToString("D", pt));
             Console.WriteLine(DateTime.Now.ToString("D", en));
             Console.WriteLine(DateTime.Now.ToString("D", de));
+            Console.WriteLine(DateTime.Now.ToString("D", atualCultura));
 
 
+            //UTC
+            Console.Clear();
+
+            var dateTimeUtc = DateTime.UtcNow;
+            Console.WriteLine(dateTimeUtc);
+            Console.WriteLine(dateTimeUtc.ToLocalTime());
+
+            var timezoneTokyo = TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time");
+            Console.WriteLine(timezoneTokyo);
+
+            var horaTokyo = TimeZoneInfo.ConvertTimeFromUtc(dateTimeUtc, timezoneTokyo);
+            Console.WriteLine(horaTokyo);
 
 
+            Console.Clear();
+            // pegar todos timezones
+            var dateTime = DateTime.Now;
+            var timezones = TimeZoneInfo.GetSystemTimeZones();
+            foreach (var timezone in timezones)
+            {
+                Console.WriteLine(timezone.Id);
+                Console.WriteLine(timezone);
+                Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(dateTimeUtc, timezone));
+                Console.WriteLine("___________________");
+            }
+
+            //timespan
+            Console.Clear();
+            var timeSpan = new TimeSpan();
+            Console.WriteLine(timeSpan);
+
+            var timeSpanNanosegundos = new TimeSpan(1);
+            Console.WriteLine(timeSpanNanosegundos);
+
+            var timeSpanHoraMinutoSegundo = new TimeSpan(5, 12, 8);
+            Console.WriteLine(timeSpanHoraMinutoSegundo);
 
 
+            // algumas funções
 
+            // dias no mês
+            Console.WriteLine(DateTime.DaysInMonth(2021, 1));
 
+            // hoje é fim de semana
+            Console.WriteLine(IsWeekend(DateTime.Now.DayOfWeek));
 
+            // horário de verão (está ou não)
+            Console.WriteLine(DateTime.Now.IsDaylightSavingTime());
 
+        }
 
+        static bool IsWeekend(DayOfWeek today)
+        {
+            return today == DayOfWeek.Saturday || today == DayOfWeek.Sunday;
         }
     }
 }
