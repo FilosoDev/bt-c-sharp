@@ -194,8 +194,41 @@ namespace MyApp
             // horário de verão (está ou não)
             Console.WriteLine(DateTime.Now.IsDaylightSavingTime());
 
+            // MOEDAS
+            Console.Clear();
+
+            decimal valor = 10.789m; //mais preciso
+            Console.WriteLine(valor);
+
+            Console.WriteLine(valor.ToString(
+                "C",
+                CultureInfo.CreateSpecificCulture("pt-BR")));
+
+            Console.WriteLine(valor.ToString(
+                "C",
+                CultureInfo.CreateSpecificCulture("en-US")));
+
+            Console.WriteLine(valor.ToString(
+                "P",
+                 CultureInfo.CreateSpecificCulture("pt-BR")));
+
+
+            // arredondamentos
+            Console.WriteLine(
+                Math.Round(valor)
+            );
+
+            Console.WriteLine(
+                Math.Ceiling(valor)
+            );
+
+            Console.WriteLine(
+                Math.Floor(valor)
+            );
+
         }
 
+        // datas
         static bool IsWeekend(DayOfWeek today)
         {
             return today == DayOfWeek.Saturday || today == DayOfWeek.Sunday;
