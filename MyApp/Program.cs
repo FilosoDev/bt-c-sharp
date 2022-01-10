@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Globalization;
 
 namespace MyApp
 {
@@ -67,6 +68,87 @@ namespace MyApp
             Console.WriteLine(textoQuatro);
 
             // TRABALHANDO COM DATAS
+            Console.Clear();
+            // var data = new DateTime(); ->só cria uma estrutura datetime
+            // var data = DateTime.Now;
+
+            var data = new DateTime(2022, 10, 12, 8, 23, 14);
+
+            Console.WriteLine(data);
+            Console.WriteLine(data.Year);
+            Console.WriteLine(data.Month);
+            Console.WriteLine(data.Day);
+            Console.WriteLine(data.Hour);
+            Console.WriteLine(data.Minute);
+            Console.WriteLine(data.Second);
+            Console.WriteLine(data.DayOfWeek);
+            Console.WriteLine(data.DayOfYear);
+
+            Console.Clear();
+
+            //var dataFormatada = String.Format("{0:yyyy}", data);
+            //var dataFormatada = String.Format("{0:yy}", data);
+            //var dataFormatada = String.Format("{0:y}", data);
+            //var dataFormatada = String.Format("{0:yyy}", data);
+            //var dataFormatada = String.Format("{0:M}", data);
+            //var dataFormatada = String.Format("{0:mm}", data);
+            //var dataFormatada = String.Format("{0:yyyy-MM-dd}", data);
+            //var dataFormatada = String.Format("{0:dd-MM-yyyy}", data);
+            //var dataFormatada = String.Format("{0:dd-MM-yyy hh:mm:ss}", data);
+            //var dataFormatada = String.Format("{0:t}", data);
+            //var dataFormatada = String.Format("{0:d}", data);
+            //var dataFormatada = String.Format("{0:T}", data);
+            //var dataFormatada = String.Format("{0:D}", data);
+            //var dataFormatada = String.Format("{0:f}", data);
+            //var dataFormatada = String.Format("{0:g}", data);
+            //var dataFormatada = String.Format("{0:r}", data);
+            //var dataFormatada = String.Format("{0:s}", data);
+            var dataFormatada = String.Format("{0:u}", data);
+
+            Console.WriteLine(dataFormatada);
+
+            Console.Clear();
+
+            var dataTres = DateTime.Now;
+            Console.WriteLine(dataTres);
+
+            Console.WriteLine(dataTres.AddDays(12));
+
+            Console.WriteLine(dataTres.AddMonths(1));
+
+            Console.WriteLine(dataTres.AddYears(1));
+
+            Console.Clear();
+
+            var dataQuatro = DateTime.Now;
+
+            if (dataQuatro.Date == DateTime.Now.Date) // compara só a data, pois sempre será diferente se considerar segubdos
+            {
+                Console.WriteLine("é igual");
+            }
+
+            Console.WriteLine(dataQuatro);
+
+            //GLOBALIZAÇÃO
+            Console.Clear();
+
+            var br = new CultureInfo("pt-BR");
+            var pt = new CultureInfo("pt-PT");
+            var en = new CultureInfo("en-US");
+            var de = new CultureInfo("de-DE");
+
+            Console.WriteLine(DateTime.Now.ToString("D", br));
+            Console.WriteLine(DateTime.Now.ToString("D", pt));
+            Console.WriteLine(DateTime.Now.ToString("D", en));
+            Console.WriteLine(DateTime.Now.ToString("D", de));
+
+
+
+
+
+
+
+
 
 
 
