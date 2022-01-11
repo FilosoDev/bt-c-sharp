@@ -258,7 +258,64 @@ namespace MyApp
             }
 
 
+
+            // TRATAMENTO DE ERROS
+            Console.Clear();
+            var arr = new int[3];
+
+            try
+            {
+                /*                 for (var index = 0; index < 10; index++)
+                                {
+                                    // System.IndexOutOfRangeException
+                                    Console.WriteLine(arr[index]);
+                                } */
+
+                Cadastrar("");
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("não encontrei o índice na lista");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("algo deu errado");
+            }
+
+            finally
+            {
+                Console.WriteLine("sempre apareço...rs");
+            }
+
+
         }
+
+
+
+        // Exceptions
+        static void Cadastrar(String texto)
+        {
+            if (string.IsNullOrEmpty(texto))
+            {
+                //throw new Exception("não pode ser nulo ou vazio...");
+                throw new MinhaException(DateTime.Now);
+            }
+        }
+
+        public class MinhaException : Exception
+        {
+            public MinhaException(DateTime date)
+            {
+                QuandoAconteceu = date;
+            }
+            public DateTime QuandoAconteceu { get; set; }
+        }
+
+
 
         // datas
         static bool IsWeekend(DayOfWeek today)
